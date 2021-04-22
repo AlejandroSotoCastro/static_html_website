@@ -77,13 +77,13 @@ svg:hover {
   border: 1px solid #000000;
 }
 
-.pbear {
+.glasses {
   position: absolute;
-  top: 261px;
-  left: 148px;
+  top: 231px;
+  left: 152px;
   opacity: 0;
 }
 
-.pbear:hover {
+.glasses:hover {
   opacity: 1;
 }
