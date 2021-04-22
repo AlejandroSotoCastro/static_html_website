@@ -8,6 +8,7 @@ console.log(btnsArr)
 
 
 const aButton = document.querySelector('button');
+const planet = document.getElementById('planetoid')
 console.log(Array.from(aButton))
 let toggle= false;
 
@@ -17,6 +18,7 @@ function dosomething(){
 
         console.log("this should do something")
         aButton.style.backgroundColor="red"
+        planet.fill="rgb(255  ,255,64)"
         
         
     }
