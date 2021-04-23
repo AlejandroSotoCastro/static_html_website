@@ -51,6 +51,22 @@ html {
   background-color: red;
 }
 
+.secretMessage{
+
+  display: none;
+  overflow: hidden;
+  background-color: #d3a51a;
+}
+.secretMessage.visible{
+
+  display: inline;
+}
+
+.secretButton{
+  background-color: #d3a51a;
+  
+}
+
 body {
   display: flex;
   flex-direction: column;

@@ -9,14 +9,21 @@ console.log(btnsArr)
 
 const aButton = document.querySelector('button');
 const planet = document.getElementById('planetoid')
+const secretButton = document.getElementById('buttonId')
 console.log(Array.from(aButton))
 let toggle= false;
 
 
+/*funct to make the button apear*/ 
+function secretfunction(){
+    secretButton.classList.toggle('visible')
+
+
+}
+
 function dosomething(){
     if (toggle){
 
-        console.log("this should do something")
         aButton.style.backgroundColor="red"
         planet.fill="rgb(255  ,255,64)"
         
